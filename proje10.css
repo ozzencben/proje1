@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.buttons{
+    width: 100px;
+    color: #fff;
+    height: 100px;
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+
+.buttons:hover{
+    color: #000;
+    background-color: #fff;
+}
